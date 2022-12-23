@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	cursor: pointer;
+}
+/*HEADER*/
+header {
+	border: 2px solid red;
+}
+
+.container-header {
+	border: 2px solid red;
+}
+
+.list {
+	
+}
+
+.list-item {
+
+}
+
+.link-item {
+
+}
+
+.list nav{
+	
+}
+
+/*MAIN*/
+main {
+	border: 2px solid red;	
+}
+
+.container-main {
+	border: 2px solid red;
+}
+
+.section-item {
+	border: 2px solid red;
+
+}
+
+.welcome {
+
+}
+
+.about {
+
+}
+
+.service {
+
+}
+
+.prices {
+
+}
+
+.contacts {
+
+}
+
+.button-item {
+
+}
+
+/*FOOTER*/
+footer {
+
+}
+
+.container-footer {
+	
+}
