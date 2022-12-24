@@ -6,6 +6,17 @@
 html {
 	cursor: pointer;
 }
+
+body {
+	
+}
+
+.container {
+	margin: auto;
+	width: 1440px;
+	background-color: #FFFFFF;
+
+}
 /*HEADER*/
 header {
 	border: 2px solid red;
@@ -70,6 +81,7 @@ main {
 }
 
 /*FOOTER*/
+
 footer {
 
 }
