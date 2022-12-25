@@ -93,15 +93,15 @@ header {
 /* WELCOME */
 
 main {
-	border: 2px solid red;	
+	/* border: 2px solid red;	 */
 }
 
 .container-main {
-	border: 2px solid red;
+	/* border: 2px solid red; */
 }
 
 .section-item {
-	border: 2px solid red;	
+	/* border: 2px solid red;	 */
 }
 
 .welcome {
@@ -121,6 +121,10 @@ main {
 	line-height: 50px;
 }
 
+.green-words {
+	color: #499A18;
+}
+
 .text p {
 	font-size: 20px;
 	padding-top: 48px;
@@ -130,7 +134,7 @@ main {
 
 }
 
-.welcome button {
+.button-item {
 	color: black;
 	line-height: 20px;
 	font-size: 16px;
@@ -154,6 +158,11 @@ main {
 	padding-left: 224.2px;
 }
 
+.about h2 {
+	color: #E06733;
+	font-weight: lighter;
+}
+
 /* SERVICE */
 
 .service {
@@ -161,28 +170,50 @@ main {
 	flex-direction: column;
 	flex-wrap: wrap;
 	background-color:  #EDF2EC;
-	/* justify-content: space-between; */
 }
 
 .service-top {
 	padding-top: 50px;
-	/* padding-left: 80px; */
-	/* padding-left: 124.2px; */
 	display: flex;
+	flex-direction: row;
 	justify-content: space-around;
-	/* align-items: center; */
 }
 
-.service-img {
+.service-top h2 {
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 52px;
+}
+
+.buttons {
+
+}
+
+.figures {
 	display: flex;
+	flex-direction: row;
 	flex-wrap: wrap;
-	
+	justify-content: space-around;
+	padding:  58px;
 }
 
-.service-item {
-	padding-left: 80px;
-	padding-bottom: 55px;
+figure {
+	padding: 25px 0px 55px 0px;
 }
+
+figure img {
+	display: block;
+}
+
+figcaption {
+	line-height: 35px;
+	text-align: center;
+	border: 1px solid #E3E1D5;
+	border-radius: 0px 0px 20px 20px;
+	padding-bottom: 34px;
+}
+
+
 
 .prices {
 
