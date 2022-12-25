@@ -27,7 +27,6 @@ html {
 	cursor: pointer;
 }
 
-
 .container {
 	margin: auto;
 	width: 1440px;
@@ -69,6 +68,10 @@ header {
 	padding: 10px 15px;
 }
 
+.link-item {
+	text-decoration: none;
+	color: #010201;
+}
 
 .home-nav {
 	color: #E06733;
@@ -83,7 +86,6 @@ header {
 /*MAIN*/
 
 /* WELCOME */
-
 .welcome {
 	display: flex;
 	background-color:  #EDF2EC;
@@ -128,8 +130,8 @@ header {
 
 .about {
 	display: flex;
-	align-items: center;
-	padding: 62px 79px 62px;
+	align-items: flex-end;
+	padding: 140px 79px 100px;
 }
 
 
@@ -166,7 +168,7 @@ header {
 	line-height: 52px;	
 }
 
-.button-item{
+.button-item {
 	margin-left: 38px;
 }
 
@@ -272,7 +274,6 @@ figcaption p {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	/* align-items: center; */
 }
 
 .list {
@@ -288,7 +289,7 @@ figcaption p {
 	border-radius: 0px;
 	
 	font-size: 20px;
-	line-height: 40px;
+	line-height: 50px;
 	letter-spacing: 0.05em;
 	padding-left: 20px;
 	color: #717171;
@@ -298,13 +299,13 @@ figcaption p {
 
 footer {
 	padding: 35px 109px 35px 109px ;
-	/* height: 119px; */
 	display: flex;
 	flex-direction:row;
 	justify-content: space-between;
 	align-items: center;
-	font-size: 20px;
+	font-size: 24px;
 	color: #000000;
+	font-weight: lighter;
 }
 
 .foo {
