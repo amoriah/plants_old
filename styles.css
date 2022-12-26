@@ -313,6 +313,10 @@ figcaption p {
 	color:#323131
 }
 
+.variants img {
+	padding-left: 54px;
+}
+
 .call-us {
 	padding-top: 15px;
 	display: flex;
@@ -356,6 +360,10 @@ figcaption p {
 	letter-spacing: 0.05em;
 	padding-left: 20px;
 	color: #717171;
+}
+
+.list-item img {
+	padding-left: 360px;
 }
 
 /*FOOTER*/
