@@ -24,6 +24,7 @@
 }
 
 html {
+	font-family: 'Inika', sans-serif;
 	/* cursor: pointer; */
 	scroll-behavior: smooth;
 }
@@ -32,12 +33,13 @@ html {
 	margin: auto;
 	width: 1440px;
 	background-color: #FFFFFF;
-	font-family: 'Inika';
+	/* font-family: 'Inika'; */
 	color: #636060;
 
 }
 /*HEADER*/
 header {
+	font-size: 16px;
 	background-color:  #EDF2EC;
 }
 
@@ -147,6 +149,7 @@ header {
 	border: 2px solid #E06733;
 	border-radius: 10px;
 	transform: all 0.5s;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .button-item:hover,  .button-item:focus, .button-item:active {
@@ -172,6 +175,7 @@ header {
 .about h2 {
 	color: #E06733;
 	font-weight: lighter;
+	font-size: 40px;
 }
 
 /* SERVICE */
@@ -208,8 +212,13 @@ header {
 	padding-right: 40px;
 	text-transform: none;
 	color: #E06733;
-	font-size: 22px;
-	font-family: 'inika-regular';
+	font-size: 20px;
+	text-shadow: none;
+	border: 1px solid #E06733;
+	border-radius: 5px;
+	width: 161px;
+	height: 50px;
+	/* font-family: 'inika-regular'; */
 }
 
 .figures {
@@ -331,7 +340,10 @@ figcaption p {
 	text-transform: none;
 	background-color: #FFFFFF;
 	color: #E06733;
+	border: 1px solid #E06733;
+	border-radius: 5px;
 	font-size: 20px;
+	text-shadow: none;
 }
 
 /* CONTACTS */
@@ -341,6 +353,7 @@ figcaption p {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	font-size: 40px;
 }
 
 .list {
@@ -373,14 +386,14 @@ footer {
 	flex-direction:row;
 	justify-content: space-between;
 	align-items: center;
-	font-size: 24px;
+	font-size: 20px;
 	color: #000000;
 	font-weight: lighter;
 }
 
 .foo {
-	font-family: 'Inter';
-	font-size: 20px;
+	/* font-family: 'Inter'; */
+	/* font-size: 20px; */
 	line-height: 50px;	
 	color: #000000;
 	text-decoration: none;
